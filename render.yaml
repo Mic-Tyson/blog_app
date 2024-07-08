@@ -12,7 +12,7 @@ services:
       - key: RAILS_MASTER_KEY
         sync: false
         key: DATABASE_URL
-          fromDatabse:
+          fromDatabase:
             name: sqlite3
             property: connectionString
   - type: redis
